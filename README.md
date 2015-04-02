@@ -10,9 +10,9 @@ Keep a stable of stock messages to choose from and quickly enable/disable automa
 
 ![Manage Messages](https://raw.githubusercontent.com/ruckus/SMSButler-Android/master/screenshots/manage_index.png)
 
-![Edit Message](https://raw.githubusercontent.com/ruckus/SMSButler-Android/master/screenshots/manage_edit.png)
+![Edit Message](https://raw.githubusercontent.com/ruckus/SMSButler-Android/master/screenshots/message_edit.png)
 
-![Create Message](https://raw.githubusercontent.com/ruckus/SMSButler-Android/master/screenshots/manage_create.png)
+![Create Message](https://raw.githubusercontent.com/ruckus/SMSButler-Android/master/screenshots/message_create.png)
 
 ## Why?
 
