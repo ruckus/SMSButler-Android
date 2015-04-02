@@ -1,0 +1,39 @@
+<resources>
+
+    <!--
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    -->
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Base application theme. Defining this lets values-v21/styles.xml reuse it with changes. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Use the Toolbar instead of the ActionBar (new in API 21 and AppCompat). -->
+        <item name="windowActionBar">false</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- colorPrimary is used, for instance, for the default ActionBar
+               (but not Toolbar) background.
+                We specify the same color for the toolbar background in
+                toolbar.xml.. -->
+        <item name="colorPrimary">@color/action_bar</item>
+
+        <!-- colorPrimaryDark is used for the status bar (with the
+             battery, clock, etc). -->
+        <item name="colorPrimaryDark">@color/action_bar</item>
+
+        <!-- colorAccent is used as the default value for
+             colorControlActivated which is used to tint widgets. -->
+        <item name="colorAccent">@color/action_bar</item>
+
+
+        <!-- Color of action menu valueUpdateEvents in the action-bar -->
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+
+</resources>

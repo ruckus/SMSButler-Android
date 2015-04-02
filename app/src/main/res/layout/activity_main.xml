@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar" />
+    
+    <View
+        android:id="@+id/spacer"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        />
+
+    <EditText
+        android:layout_below="@+id/spacer"
+        android:imeOptions="actionDone"
+        android:id="@+id/message_edit"
+        android:background="#c0c0c0"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:text=""
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:hint="What is your away message?"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_below="@+id/message_edit"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Save your Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/manage_container"
+        android:layout_below="@+id/save_button"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:id="@+id/manage_messages"
+            android:text="Manage your Messages"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/choose_message"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/toggle"
+        android:checked="true"
+        android:textSize="20sp"
+        android:textOn="Auto Reply: On"
+        android:textOff="Auto Reply: Off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp" />
+
+
+</RelativeLayout>

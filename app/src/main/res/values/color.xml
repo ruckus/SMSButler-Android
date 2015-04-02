@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="button_background_normal">#4C57FF</color>
+    <color name="choose_message_highlight">#E86A0C</color>
+    
+    <color name="toggle_on">#0F7318</color>
+    <color name="toggle_off">#E12D21</color>
+    
+    <color name="settings_label">#4C57FF</color>
+    
+    <color name="edit_text">#1485CC</color>
+    
+    <!-- Buttons -->
+    <color name="button_normal">#4C57FF</color>
+    <color name="button_pressed">#AF0CE8</color>
+    
+    <color name="action_bar">#3EB209</color>
+
+    
+</resources>
