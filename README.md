@@ -4,6 +4,16 @@ A basic Android app which can respond to incoming SMS messages with another mess
 
 Keep a stable of stock messages to choose from and quickly enable/disable automatic replying.
 
+## Screenshots
+
+![Main Screen](https://raw.githubusercontent.com/ruckus/SMSButler-Android/master/screenshots/main.png)
+
+![Manage Messages](https://raw.githubusercontent.com/ruckus/SMSButler-Android/master/screenshots/manage_index.png)
+
+![Edit Message](https://raw.githubusercontent.com/ruckus/SMSButler-Android/master/screenshots/manage_edit.png)
+
+![Create Message](https://raw.githubusercontent.com/ruckus/SMSButler-Android/master/screenshots/manage_create.png)
+
 ## Why?
 
 I wanted to play around with responding to SMS messages and I also wanted to play around with RecyclerView and Realm.IO which I use for message
