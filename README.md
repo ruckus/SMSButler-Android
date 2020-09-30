@@ -1,4 +1,4 @@
-## SMS Butler
+## SMS Butler and Nice Projects
 
 A basic Android app which can respond to incoming SMS messages with another message of your choosing.
 
